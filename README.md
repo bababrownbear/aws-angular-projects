@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0 using [Nrwl Nx](https://nrwl.io/nx).
 
+This is intended to be a workspace for all my AWS projects. I am starting with nx'ing the https://github.com/awslabs/aws-cognito-angular-quickstart for re-use. 
+
 ## Nrwl Extensions for Angular (Nx)
 
 <a href="https://nrwl.io/nx"><img src="https://preview.ibb.co/mW6sdw/nx_logo.png"></a>

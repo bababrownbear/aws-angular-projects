@@ -25,14 +25,16 @@
     "@angular/platform-browser": "5.1.0",
     "@angular/platform-browser-dynamic": "5.1.0",
     "@angular/router": "5.1.0",
-    "core-js": "^2.4.1",
-    "rxjs": "^5.5.2",
-    "zone.js": "^0.8.14",
-    "@nrwl/nx": "0.5.7",
     "@ngrx/effects": "4.1.1",
     "@ngrx/router-store": "4.1.1",
     "@ngrx/store": "4.1.1",
-    "@ngrx/store-devtools": "4.0.0"
+    "@ngrx/store-devtools": "4.0.0",
+    "@nrwl/nx": "0.5.7",
+    "amazon-cognito-identity-js": "^1.29.0",
+    "aws-sdk": "^2.173.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.5.2",
+    "zone.js": "^0.8.14"
   },
   "devDependencies": {
     "@angular/cli": "file:.angular_cli.tgz",
