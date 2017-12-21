@@ -13,7 +13,7 @@ export class UserLoginService {
     }
 
     authenticate(username: string, password: string, callback: CognitoCallback) {
-        console.log("UserLoginService: starting the authentication")
+        console.log("UserLoginService: starting the authentication");
 
         const authenticationData = {
             Username: username,
