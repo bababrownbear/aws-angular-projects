@@ -9,12 +9,6 @@ import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports: [CommonModule],
-  providers: [
-    CognitoUtil,
-    AwsUtil,
-    DynamoDBService,
-    UserRegistrationService,
-    UserLoginService,
-    UserParametersService]
+  providers: [CognitoUtil, AwsUtil, DynamoDBService, UserRegistrationService, UserLoginService, UserParametersService]
 })
-export class AwsCognitoAngularQuickstartModule { }
+export class AwsCognitoAngularQuickstartModule {}
