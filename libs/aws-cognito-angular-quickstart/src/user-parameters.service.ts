@@ -11,14 +11,14 @@ export class UserParametersService {
         const cognitoUser = this.cognitoUtil.getCurrentUser();
 
         if (cognitoUser != null) {
-            cognitoUser.getSession(function (err, session) {
-                if (err) {
+            cognitoUser.getSession(function (sessionError, session) {
+                if (sessionError) {
                     console.log("UserParametersService: Couldn't retrieve the user");
                 }
                 else {
-                    cognitoUser.getUserAttributes(function (err, result) {
-                        if (err) {
-                            console.log("UserParametersService: in getParameters: " + err);
+                    cognitoUser.getUserAttributes(function (userAttributeError, result) {
+                        if (userAttributeError) {
+                            console.log("UserParametersService: in getParameters: " + userAttributeError);
                         } else {
                             callback.callbackWithParam(result);
                         }
